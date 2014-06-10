@@ -1,3 +1,4 @@
-Component Entity system in coffeescript,
+Component Entity system in Coffeescript,
 
-todo: write philosophy,  usage and etc
+ported an modified from https://github.com/brejep/ash-js
+

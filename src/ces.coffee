@@ -57,6 +57,7 @@ module.exports.CESEngine = class ComponentEntitySystemEngine
         entity.componentAdded.add @onComponentAdded
         entity.componentRemoved.add @onComponentRemoved
         @entities.push entity
+        entity
     removeEntity: (entity)->
         entity.componentAdded.remove @onComponentAdded
         entity.componentRemoved.remove @onComponentRemoved
